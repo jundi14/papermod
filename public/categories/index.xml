@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Jundi Journal</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Aug 2025 12:00:00 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogging</title>
+      <link>http://localhost:1313/categories/blogging/</link>
+      <pubDate>Sun, 31 Aug 2025 12:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/categories/blogging/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Teknologi</title>
       <link>http://localhost:1313/categories/teknologi/</link>
@@ -18,7 +25,7 @@
     <item>
       <title>Coretan</title>
       <link>http://localhost:1313/categories/coretan/</link>
-      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Aug 2025 08:00:00 +0700</pubDate>
       <guid>http://localhost:1313/categories/coretan/</guid>
       <description></description>
     </item>

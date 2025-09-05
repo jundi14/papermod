@@ -2,6 +2,8 @@ baseURL: https://jundi.netlify.app/
 languageCode: en-us
 title: Jundi Journal
 theme: PaperMod
+pagination:
+  pagersize: 6
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -17,7 +19,7 @@ params:
 
   ShowReadingTime: false
   ShowShareButtons: true
-  ShareButtons: ["telegram", "facebook", "whatsapp"] # To customize which share buttons to be enabled on page
+  ShareButtons: ["linkedin", "twitter", "facebook", "whatsapp", "telegram"]
   ShowPostNavLinks: true
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
@@ -31,10 +33,11 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  
 
   homeInfoParams:
-    Title: Ngobrol Lewat Tulisan Ringan
-    Content: Suka mempelajari hal baru dan ~tidak~ seringkali ditulis disini 😁
+    Title: Personal Blog
+    Content: Suka mempelajari hal baru dan kadang ~tidak~ ditulis disini 😁
   socialIcons:
     - name: "Telegram"
       url: "https://t.me/jundi_mubarok"
@@ -67,3 +70,16 @@ menu:
       name: Microblog
       url: "https://streams.place/jundi"
       weight: 30
+
+minify:
+  disableXML: true
+  minifyOutput: true
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+sitemap:
+  changefreq: never
+  filename: sitemaps.xml
+  priority: 1.0
