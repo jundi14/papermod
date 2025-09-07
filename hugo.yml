@@ -1,20 +1,21 @@
 baseURL: https://jundi.netlify.app/
 languageCode: en-us
-title: Jundi Journal
+title: Jundi Space
 theme: PaperMod
 pagination:
   pagersize: 6
 
+# start params
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Jundi Journal  
+  title: Jundi Space  
   description: "Ngobrol Lewat Tulisan Ringan"
   keywords: [Blog, Personal, Jundi Mubarok, website, statis, Hugo, PaperMod]
   author: Jundi
   # author: ["Me", "You"] # multiple authors
   #images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "2 January, 2006"
-  defaultTheme: dark # dark, light
+  defaultTheme: dark 
   disableThemeToggle: false
 
   ShowReadingTime: false
@@ -31,13 +32,10 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
-  tocopen: false
-  
-
+ 
   homeInfoParams:
-    Title: Personal Blog
-    Content: Suka mempelajari hal baru dan kadang ~tidak~ ditulis disini 😁
+    Title: Jundi Mubarok
+    Content: Selamat datang di ruang saya. Di sini saya menulis apa yang saya alami, saya pelajari, dan semoga bisa jadi inspirasi juga buat kamu. 😁
   socialIcons:
     - name: "Telegram"
       url: "https://t.me/jundi_mubarok"
@@ -54,18 +52,35 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]  
+    keys: ["title", "permalink", "summary", "content"] 
+
+#end params
+
+assets:
+  favicon: "favicon.svg"
+  #favicon16x16:  "/favicon-16x16.png"
+  #favicon32x32:  "/favicon-32x32.png"
+  apple_touch_icon:  "apple-touch-icon.png"
+  #safari_pinned_tab:  "/safari-pinned-tab.svg" 
+  #theme_color: "#d8dbdf"
+  #msapplication_TileColor: "#2b5797"
+  disableHLJS: false
+  disableFingerprinting : false 
 
 menu:
   main:
     - identifier: categories
-      name: Kategori
+      name: Categories
       url: /categories/
       weight: 20
     - identifier: archives
-      name: Arsip
+      name: Archives
       url: /archives/
       weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 25
     - identifier: Microblog
       name: Microblog
       url: "https://streams.place/jundi"
@@ -83,3 +98,4 @@ sitemap:
   changefreq: never
   filename: sitemaps.xml
   priority: 1.0
+

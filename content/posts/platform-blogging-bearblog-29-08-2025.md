@@ -6,6 +6,8 @@ description: ""
 categories: ["Blogging"]
 cover: 
   image: images/featured-bearblog.jpg
+ShowToc: false
+TocOpen: false
 ---
 Pada saat ini ada banyak layanan yang memudahkan kita untuk membuat website dan blog, sebut saja blogspot dan wordpress yang banyak digunakan untuk berbagai macam keperluan.
 

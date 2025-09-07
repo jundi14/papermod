@@ -5,6 +5,8 @@ date: 2025-08-01T08:00:00.000+07:00
 categories: ["Coretan"]
 cover: 
   image: images/featured-serabi.jpg
+ShowToc: false
+TocOpen: false
 ---
 Di pagi minggu yang cerah banyak sekali yang menjajakan makanan di pusat keramaian, salah satunya di OSG (Open Space Gallery) yang berlokasi di antara Desa Bojong dan Desa Linggasana.
 

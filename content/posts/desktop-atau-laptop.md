@@ -5,9 +5,8 @@ date: "2025-08-25"
 categories: ["Teknologi"]
 cover:
   image: images/featured-laptop.jpg
-  caption: ""
 ShowToc: true
-TocOpen: true
+TocOpen: false
 ---
 
 Ada dilema besar saat membeli komputer. Proses pengambilan keputusan membawa Apa, Bagaimana, Yang mana dan faktor penentu yang bergantung pada Pilihan di luar harga, merek, dan kenyamanan.
