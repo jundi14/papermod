@@ -32,6 +32,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
+  stickyHeader: true
  
   homeInfoParams:
     Title: Jundi Mubarok
