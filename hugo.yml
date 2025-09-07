@@ -1,6 +1,6 @@
 baseURL: https://jundi.netlify.app/
 languageCode: en-us
-title: Jundi's Blog
+title: Jundi Mubarok
 theme: PaperMod
 pagination:
   pagersize: 6
@@ -44,6 +44,10 @@ params:
       url: "https://bsky.app/profile/jundi.web.id" 
     - name: "kofi"
       url: "https://saweria.co/jundimubarok"
+    
+  label:
+    text: ""
+    icon: "apple-touch-icon.png"
 
   fuseOpts:
     isCaseSensitive: false
@@ -56,6 +60,9 @@ params:
     keys: ["title", "permalink", "summary", "content"] 
 
 #end params
+
+
+
 
 assets:
   favicon: "favicon.ico"
