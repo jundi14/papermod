@@ -86,6 +86,8 @@ menu:
       url: "https://streams.place/jundi"
       weight: 30
 
+#copyright: [example.site](https://example.site)
+
 minify:
   disableXML: true
   minifyOutput: true
