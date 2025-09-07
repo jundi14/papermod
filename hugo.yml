@@ -1,6 +1,6 @@
 baseURL: https://jundi.netlify.app/
 languageCode: en-us
-title: Jundi Space
+title: Jundi's Blog
 theme: PaperMod
 pagination:
   pagersize: 6
@@ -8,7 +8,7 @@ pagination:
 # start params
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Jundi Space  
+  title: Jundi's Blog
   description: "Ngobrol Lewat Tulisan Ringan"
   keywords: [Blog, Personal, Jundi Mubarok, website, statis, Hugo, PaperMod]
   author: Jundi
@@ -35,7 +35,7 @@ params:
  
   homeInfoParams:
     Title: Jundi Mubarok
-    Content: Selamat datang di ruang saya. Di sini saya menulis apa yang saya alami, saya pelajari, dan semoga bisa jadi inspirasi juga buat kamu. 😁
+    Content: Halo, saya Jundi. Tempat ini saya buat untuk berbagi cerita sehari-hari, catatan kecil, dan hal-hal sederhana yang menurut saya menarik untuk diabadikan.😁
   socialIcons:
     - name: "Telegram"
       url: "https://t.me/jundi_mubarok"
@@ -57,7 +57,7 @@ params:
 #end params
 
 assets:
-  favicon: "favicon.svg"
+  favicon: "favicon.ico"
   #favicon16x16:  "/favicon-16x16.png"
   #favicon32x32:  "/favicon-32x32.png"
   apple_touch_icon:  "apple-touch-icon.png"
