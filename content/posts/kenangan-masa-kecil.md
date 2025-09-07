@@ -7,7 +7,7 @@ cover:
   image: images/featured-kenangan.jpg
   caption: ""
 ShowToc: true
-TocOpen: false
+TocOpen: true
 ---
 
 Teringat masa kecil banyak pengalaman menarik dan seru.

@@ -7,7 +7,7 @@ categories: ["Teknologi"]
 cover: 
   image: images/featured-laptop.jpg
 ShowToc: true
-TocOpen: false
+TocOpen: true
 ---
 Kebutuhan akan laptop menjadi hal yang hampir wajib di hampir seluruh kegiatan kita sehari-hari.
 

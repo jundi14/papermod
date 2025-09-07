@@ -6,7 +6,7 @@ categories: ["Coretan"]
 cover: 
   image: images/featured-betah-pesantren.jpg
 ShowToc: true
-TocOpen: false
+TocOpen: true
 ---
 Belajar di pesantren menjadi salah satu cara agar terbiasa dengan pola hidup lebih disiplin dengan bimbingan asatidz yang akan membimbing kita untuk betah di dalam lingkungan yang lebih baik, *Insyaallah*.
 
